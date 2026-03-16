@@ -1,0 +1,36 @@
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    margin: 5%;
+}
+form input{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+form button{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #36383a6d;
+    color: white;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 5%;
+    flex-direction: row;
+    gap: 1rem;
+}
+ul button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
